@@ -78,6 +78,7 @@ char* GetStringFromStdin(char* str)
 {
     fgets(str, 100, stdin);
     printf("FGET^ string is: %s\n", str);
+    return(str);
 }
 
 void DisplayString(const char* str)
